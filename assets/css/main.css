@@ -533,7 +533,7 @@
 
 .footer-input{
     height: 80%;
-    width: 40%;
+    width: 60%;
     margin-right: 10%;
     margin-top: 0.5%;
 
@@ -634,6 +634,10 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+
+.about-content iframe{
+    height: 90%;
 }
 
 .nav-about{
