@@ -18,9 +18,9 @@
     justify-content: space-between;
 }
 
-.header-name {
-    /* margin-right: -15%; */
-}
+/* .header-name {
+    margin-right: -15%;
+} */
 
 .header-icon{
     padding-right: 110px;
@@ -427,7 +427,7 @@
 .discription{
     position: absolute;
     color: white;
-    top: 160px;
+    top: 18vh;
     left: 56px;
     max-width: 100%;
     max-height: 100%;
@@ -513,6 +513,62 @@
 
 .box-3-coin h5:hover{
     color: #66a55f;
+}
+
+/* -----content-4----- */
+
+.content-4{
+    background-color: #ccc;
+}
+
+.conten-4-box{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.content-4-banner{
+    position: relative;
+    text-align: center;
+}
+
+.content-4-banner img {
+    width: 90%;
+    height: 435px;
+    opacity: .8;
+}
+
+.content-4-info{
+    position: absolute;
+    top: 50%;
+    right: 30vh;
+}
+
+
+.content-4-info h6{
+    color: white;
+    font-size: 50px;
+    text-shadow: 0 0 5px #000;
+}
+
+.content-4-btn{
+    width: 150px;
+    height: 35px;
+    margin-top: 3%;
+    background-color: white;
+    color: #000;
+}
+
+.content-4-btn:hover{
+    box-shadow: inset 200px 0 0 0 #e2ffdf ;
+    cursor: pointer;
+    color: #66a55f;
+}
+
+.content-4-banner-item{
+    margin-left: 10% !important;
 }
 
 /* ---email-login--- */
@@ -1027,3 +1083,148 @@ textarea{
     font-size: 20px;
     color: rgb(161, 156, 156);
 }
+
+/* -------------landing page----------------- */
+
+.landing-page{
+    background-color: #e2ffdf;
+
+}
+
+.landingpage-big-box{
+    background-color: #e2ffdf;
+}
+
+.landingpage-sliser{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.landingpage-sliser img{
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.landingpage-sliser-free{
+    margin-top: 2%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-landingpage{
+    width: 70%;
+    margin: 0 auto; 
+    padding-bottom: 3%;
+}
+
+.nav-landingpage ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+}
+
+.nav-landingpage ul{
+    color: #837777;
+}
+
+.product-sale{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1%;
+}
+
+.landingpage-btn-more{
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.btn-more-landingpage{
+    width: 300px;
+    background-color: white;
+    color: #66a55f;
+}
+
+.btn-more-landingpage:hover{
+    box-shadow: inset 200px 0 0 0 #e2ffdf;
+    cursor: pointer;
+    color: #66a55f;
+}
+
+/* ---code-sale---- */
+.landingpage-code-sale{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.landingpage-code-sale{
+    text-align: center;
+}
+
+.landingpage-code-sale img{
+    margin: 2% 0;
+}
+
+/* --- landing page banner---*/
+
+.landingpage-banner{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.landingpage-banner-img{
+    margin-left: 18%;
+    margin-top: 3%;
+    margin-right: 1%;
+}
+
+.landingpage-banner-img img{
+    width: 100%;
+}
+
+.landingpage-banner-box-1{
+    margin-top: 3%;
+}
+
+.landingpage-banner-img-box-2{
+    margin-right: 18%;
+    margin-top: 3%;
+    margin-left: 1%;
+}
+
+.landingpage-banner-img-box-2 img{
+    width: 100%;
+}
+
+.landingpage-box-hover{
+    overflow: hidden;
+    position: relative;
+}
+
+.landingpage-box-hover::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: ease-in .3s;
+}
+
+.landingpage-box-hover:hover::after{
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+/* ---------------------product--------------------- */
+
+.nav-product-item{
+    margin-top: 6%;
+}
+
